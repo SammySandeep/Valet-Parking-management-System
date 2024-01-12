@@ -13,7 +13,6 @@ class ParkingGarage
     end
   
     def admitTheCar(license_plate_no, car_size)
-      puts license_plate_no
       car = { car: license_plate_no, size: car_size }
       case car_size
       when 'small'
